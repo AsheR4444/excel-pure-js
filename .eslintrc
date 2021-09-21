@@ -2,5 +2,11 @@
   "env": {
     "browser": true
   },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "indent": ["error", 4],
+    "class-methods-use-this": "off",
+    "no-unused-vars": "warn"
+  },
   "extends": ["airbnb","eslint:recommended"]
 }
