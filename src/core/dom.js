@@ -1,15 +1,15 @@
 class Dom {}
 
 export function $(tagName, classes = '') {
-    return new Dom();
+    return new Dom()
 }
 
 $.create = (tagName, classes = '') => {
-    const el = document.createElement(tagName);
+    const el = document.createElement(tagName)
 
     if (classes) {
-        el.classList.add(classes);
+        el.classList.add(classes)
     }
 
-    return el;
-};
+    return el
+}

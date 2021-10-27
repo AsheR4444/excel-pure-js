@@ -1,4 +1,4 @@
-import { ExcelComponent } from '../../core/ExcelComponent';
+import { ExcelComponent } from '../../core/ExcelComponent'
 
 export class Table extends ExcelComponent {
     static className = 'excel__table';
@@ -129,6 +129,6 @@ export class Table extends ExcelComponent {
                     <div class="cell">C3</div>
                 </div>
             </div>
-        `;
+        `
     }
 }

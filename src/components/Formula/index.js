@@ -1,1 +1,1 @@
-export { Formula } from './Formula';
+export { Formula } from './Formula'
