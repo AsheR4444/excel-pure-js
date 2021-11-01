@@ -1,4 +1,4 @@
-import { ExcelComponent } from '../../core/ExcelComponent';
+import { ExcelComponent } from '../../core/ExcelComponent'
 
 export class Formula extends ExcelComponent {
     static className = 'excel__formula';
@@ -7,6 +7,6 @@ export class Formula extends ExcelComponent {
         return `
             <div class="info">fx</div>
             <div class="input" contenteditable spellcheck="false"></div>
-        `;
+        `
     }
 }

@@ -1,1 +1,1 @@
-export { Excel } from './Excel';
+export { Excel } from './Excel'

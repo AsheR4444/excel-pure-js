@@ -1,9 +1,9 @@
 export class DomListener {
     constructor($root) {
         if (!$root) {
-            throw new Error('No $root provided');
+            throw new Error('No $root provided')
         }
 
-        this.$root = $root;
+        this.$root = $root
     }
 }
